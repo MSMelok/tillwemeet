@@ -17,11 +17,11 @@ body {
   align-items: center;
   height: 100vh;
   padding: 20px;
-  backdrop-filter: blur(8px); /* Adds a glass effect over the background */
+  backdrop-filter: blur(4px); /* Adds a glass effect over the background */
 }
 
 .countdown-container {
-  background: rgba(255, 255, 255, 0.85); /* Semi-transparent white for contrast */
+  background: rgba(255, 255, 255, 0.75); /* Semi-transparent white for contrast */
   width: 90%;
   max-width: 400px;
   padding: 20px;
@@ -30,7 +30,7 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 header h1 {
