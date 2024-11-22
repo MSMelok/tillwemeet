@@ -1,0 +1,104 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Roboto:wght@400;500;700&family=Scheherazade+New:wght@400;700&display=swap');
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('./background.png') no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Playfair Display", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  backdrop-filter: blur(8px); /* Adds a glass effect over the background */
+}
+
+.countdown-container {
+  background: rgba(255, 255, 255, 0.85); /* Semi-transparent white for contrast */
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+header h1 {
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+header h2 {
+  font-size: 1.5rem;
+  color: #e74c3c;
+  margin-top: 10px;
+}
+
+.countdown {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.time-box {
+  background: #3498db;
+  color: #ffffff;
+  padding: 8px 0;
+  border-radius: 8px;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.time-label {
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+footer p {
+  font-size: 1rem;
+  color: #7f8c8d;
+}
+
+/* Quranic Verse Style */
+.quran-verse {
+  margin-top: 10px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.75); /* Semi-transparent background for readability */
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Scheherazade New', serif; /* Elegant Arabic script font */
+  font-size: 1.2rem;
+  color: #2c3e50;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.quran-verse blockquote {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.quran-verse cite {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.8rem;
+  color: #34495e;
+  font-style: italic;
+}
