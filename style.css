@@ -21,7 +21,7 @@ body {
 }
 
 .countdown-container {
-  background: rgba(255, 255, 255, 0.75); /* Semi-transparent white for contrast */
+  background: rgb(255 255 255 / 50%); /* Semi-transparent white for contrast */
   width: 90%;
   max-width: 400px;
   padding: 20px;
